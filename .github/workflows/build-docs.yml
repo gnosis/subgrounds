@@ -1,20 +1,21 @@
-name: Trigger Docs Rebuild
+# Commented out as we don't need our own docs too right now.
+# name: Trigger Docs Rebuild
 
-on:
-  workflow_call:
-  push:
-    branches: [ main ]
-    paths:
-      - "**/*.md"
+# on:
+#   workflow_call:
+#   push:
+#     branches: [ main ]
+#     paths:
+#       - "**/*.md"
 
-jobs:
-  trigger-docs:
-    runs-on: ubuntu-latest
+# jobs:
+#   trigger-docs:
+#     runs-on: ubuntu-latest
     
-    steps:
-      - name: Repository Dispatch
-        uses: peter-evans/repository-dispatch@v2
-        with:
-            token: ${{ secrets.PAT }}
-            repository: 0xPlaygrounds/docs
-            event-type: trigger-rebuild
+#     steps:
+#       - name: Repository Dispatch
+#         uses: peter-evans/repository-dispatch@v2
+#         with:
+#             token: ${{ secrets.PAT }}
+#             repository: gnosis/docs
+#             event-type: trigger-rebuild
