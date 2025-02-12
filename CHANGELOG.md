@@ -2,6 +2,12 @@
 
 <!--next-version-placeholder-->
 
+## v1.9.2 (2025-02-12)
+
+### Fix
+
+* Rename to gnosis repository and update httpx dependency ([`6d107d7`](https://github.com/gnosis/subgrounds/commit/6d107d73b20bbfacd6c35a29794579986ad86391))
+
 ## v1.9.1 (2024-06-20)
 
 ### Fix
