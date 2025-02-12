@@ -90,7 +90,7 @@ jobs:
     # ---------------------------------------------
     - name: Release
       if: |
-        github.repository == '0xPlaygrounds/subgrounds'
+        github.repository == 'gnosis/subgrounds'
         && github.event_name == 'push'
         && github.ref == 'refs/heads/main'
       env:
@@ -101,6 +101,7 @@ jobs:
         git config --global user.email "action@github.com"
         poetry run semantic-release publish -v DEBUG -D commit_author="github-actions <action@github.com>"
   
-  rebuild-docs:
-    uses: ./.github/workflows/build-docs.yml
-    secrets: inherit
+  # Commented out as we don't need our own docs too right now.
+  # rebuild-docs:
+  #   uses: ./.github/workflows/build-docs.yml
+  #   secrets: inherit

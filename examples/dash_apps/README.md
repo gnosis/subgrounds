@@ -3,6 +3,6 @@
 ## Instructions
 
 ```bash
-pip install "subgrounds[dash]"
+pip install "subgrounds-gnosis[dash]"
 python bar_chart.py
 ```

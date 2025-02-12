@@ -1,13 +1,13 @@
 # Contributing
 
-We actively encourage contributions. Feel free to open an issue to discuss changes or open a pull request if you want to make changes to our [Github](https://github.com/0xPlaygrounds/subgrounds).
+We actively encourage contributions. Feel free to open an issue to discuss changes or open a pull request if you want to make changes to our [Github](https://github.com/gnosis/subgrounds).
 
 ## Setup
 
 This project uses [poetry >= 1.2](https://python-poetry.org/docs/) to manage it's dependencies. Please checkout the official instructions to setup poetry on your system.
 
 ```bash
-$ git clone https://github.com/0xPlaygrounds/subgrounds && cd subgrounds
+$ git clone https://github.com/gnosis/subgrounds && cd subgrounds
 $ poetry install
 # or
 $ poetry install --all-extras

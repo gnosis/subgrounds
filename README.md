@@ -1,16 +1,19 @@
 # Subgrounds
-<!-- [![GitHub Actions](https://github.com/0xPlaygrounds/subgrounds/workflows/CI/badge.svg)](https://github.com/0xPlaygrounds/subgrounds/actions) -->
+
+Fork of https://github.com/0xPlaygrounds/subgrounds with small changes due to pending PRs in the original repository.
+
+<!-- [![GitHub Actions](https://github.com/gnosis/subgrounds/workflows/CI/badge.svg)](https://github.com/gnosis/subgrounds/actions) -->
 [![PyPI](https://img.shields.io/pypi/v/subgrounds.svg)](https://pypi.org/project/subgrounds/)
 [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/subgrounds.svg)](https://pypi.org/project/subgrounds/)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/ambv/black)
-[![CI](https://github.com/0xPlaygrounds/subgrounds/actions/workflows/main.yml/badge.svg)](https://github.com/0xPlaygrounds/subgrounds/actions/workflows/main.yml)
+[![CI](https://github.com/gnosis/subgrounds/actions/workflows/main.yml/badge.svg)](https://github.com/gnosis/subgrounds/actions/workflows/main.yml)
 <br>
 
 [![Discord](https://img.shields.io/discord/896944341598208070?color=7289DA&label=discord&logo=discord&logoColor=fff)](https://discord.gg/gMSSh5bjvk)
 [![Twitter Follow](https://img.shields.io/badge/Playgrounds-Analytics-31fa1f2Playgrounds0x?color=%231fa1f2&logo=Twitter&logoColor=1fa1f2&style=flat)](https://twitter.com/Playgrounds0x)
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/0xPlaygrounds/subgrounds/blob/main/examples/notebook.ipynb)
-[![Github Codepsaces](https://img.shields.io/badge/Github-Codespaces-24292f.svg?logo=Github)](https://codespaces.new/0xPlaygrounds/subgrounds-template?quickstart=1)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gnosis/subgrounds/blob/main/examples/notebook.ipynb)
+[![Github Codepsaces](https://img.shields.io/badge/Github-Codespaces-24292f.svg?logo=Github)](https://codespaces.new/gnosis/subgrounds-template?quickstart=1)
 
 <!-- start elevator-pitch -->
 An intuitive Python library for interfacing with subgraphs and GraphQL.
@@ -23,7 +26,7 @@ An intuitive Python library for interfacing with subgraphs and GraphQL.
 
 ## Resources
 - [**Docs**](http://docs.playgrounds.network/): User guide and API documentation
-- [**Snippets**](https://github.com/0xPlaygrounds/subgrounds/tree/main/examples): A list of examples showcasing Subgrounds integration with Dash and Plotly
+- [**Snippets**](https://github.com/gnosis/subgrounds/tree/main/examples): A list of examples showcasing Subgrounds integration with Dash and Plotly
 - [**Examples**](http://docs.playgrounds.network/subgrounds/examples/): An ever growing list of projects created by our community members and team
 - [**Videos**](https://docs.playgrounds.network/subgrounds/videos/): Video workshops on Subgrounds
 
@@ -31,10 +34,10 @@ An intuitive Python library for interfacing with subgraphs and GraphQL.
 > Subgrounds **requires** atleast Python 3.10+
 
 Subgrounds is available on PyPi. To install it, run the following:<br>
-`pip install subgrounds`.
+`pip install subgrounds-gnosis`.
 
 Subgrounds also comes bundled with extra modules that may require extra libraries. You can get all functionality of `subgrounds` via the following:<br>
-`pip install subgrounds[all]`.
+`pip install subgrounds-gnosis[all]`.
 
 ## Simple example
 <!-- start simple-example -->
